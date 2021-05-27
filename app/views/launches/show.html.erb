@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @launch.type %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @launch.price %>
+</p>
+
+<p>
+  <strong>Launch date:</strong>
+  <%= @launch.launch_date %>
+</p>
+
+<p>
+  <strong>Organisation:</strong>
+  <%= @launch.organisation_id %>
+</p>
+
+<%= link_to 'Edit', edit_launch_path(@launch) %> |
+<%= link_to 'Back', launches_path %>

@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  price: 9.99
+  launch_date: 2021-05-27 14:24:41
+  organisation: one
+
+two:
+  type: 
+  price: 9.99
+  launch_date: 2021-05-27 14:24:41
+  organisation: two
